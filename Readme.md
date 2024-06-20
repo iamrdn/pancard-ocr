@@ -1,27 +1,16 @@
-[![GitHub stars](https://img.shields.io/github/stars/fatihyildizli/springboot-tesseract-ocr.svg)](https://github.com/fatihyildizli/springboot-tesseract-ocr/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/fatihyildizli/springboot-tesseract-ocr.svg)](https://github.com/fatihyildizli/springboot-tesseract-ocr/network/members)
-[![Total Downloads](https://img.shields.io/packagist/dt/fatihyildizli/springboot-tesseract-ocr.svg?style=flat-square)](https://packagist.org/packages/fatihyildizli/springboot-tesseract-ocr)
-![License](https://img.shields.io/github/license/fatihyildizli/springboot-tesseract-ocr)
-![Code size](https://img.shields.io/github/repo-size/fatihyildizli/springboot-tesseract-ocr)
-![Top Language](https://img.shields.io/github/languages/top/fatihyildizli/springboot-tesseract-ocr)
-![Languages](https://img.shields.io/github/languages/count/fatihyildizli/springboot-tesseract-ocr)
-![Views](https://img.shields.io/github/search/fatihyildizli/springboot-tesseract-ocr/springboot-tesseract-ocr)
+
 
 #### Brief:
 This project (POC) consists of how to implement Tesseract OCR engine in Spring boot.
 
-Medium Link: https://medium.com/@fatih_yildizli/tesseract-ocr-implementation-in-net-core-spring-boot-6f876a5d4ae5
-
 #### API Endpoint: localhost:1907/api/ocr
 
 #### Example Usage 
-Request **(Form-data)** : 
-
- **DestinationLanguage:** Nationality Prefix { TR,ENG,ARA ... }  
+Request **(Form-data)** :
  
- **Image:** Select postman UI file type
+ **file:** Select postman UI file type
 
-![Alt](/src/main/resources/sampleResponse.PNG "Sample")
+![Alt](/src/main/resources/SampleResponse.PNG "Sample")
 
 **Tesseract Supported Language**
 This project supports only english and turkish language. If you want different language, You must download traineddata from below list. 
