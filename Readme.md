@@ -3,7 +3,11 @@
 #### Brief:
 This project (POC) consists of how to implement Tesseract OCR engine in Spring boot.
 
-#### API Endpoint: localhost:1907/api/ocr
+
+#### Run the Application
+Build and run the application.
+#### API Endpoint: localhost:1907/api/ocr/extract-pan
+Test the endpoint using a tool like Postman by uploading a PAN card image.
 
 #### Example Usage 
 Request **(Form-data)** :
